@@ -1,0 +1,64 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 240px;
+    border-right: 1px solid #480223;
+    padding: 10px;
+    padding-top: 0;
+    box-sizing: border-box;
+    right: 0;
+    height: 100vh;
+    top: 0;
+  }
+  
+  .sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .sidebar-header img{
+    width: 80px;
+    height: auto;
+  }
+
+  .sidebar-content{
+    margin-top: 100px;
+  }
+  
+  .sidebar-content-btn{
+    background-color: black;
+    width: 210px;
+    height: 55px;
+    font-size: large;
+    text-align: start;
+  }
+
+  span{
+    margin-left: 2px;
+  }
+
+  .sidebar-content-btn:hover{
+    background-color: #15010a;
+  }
+
+  .logout{
+    margin-top: 200px;
+  }
+
+  
+.search-overlay {
+  position: absolute;
+  top: 0;
+  left: 100%; /* Position it next to the Sidebar on the right */
+  width: 300px; /* Adjust width as needed */
+  height: 100%; /* Cover the entire sidebar */
+  background-color: white; /* Set your desired background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow effect */
+  display: none; /* Initially hide the overlay */
+  z-index: 10; /* Ensure it's above the sidebar content */
+}
+
+/* Show the search overlay when the Search button is hovered */
+.sidebar-content-btn:hover + .search-overlay {
+  display: block;
+}

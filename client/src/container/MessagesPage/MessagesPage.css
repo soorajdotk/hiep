@@ -1,0 +1,171 @@
+/* MessagesPage.css */
+
+.messages-page {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    border-radius: 5px;
+    margin:20px;
+    margin-left: 450px;
+  }
+  
+  .messages-sidebar {
+    width: 250px;   
+    padding: 20px;
+    overflow-y: hidden; /* Hide overflow by default */
+    transition: width 0.3s;
+  }
+  
+  .messages-sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .messages-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .messages-sidebar li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .messages-sidebar li:hover {
+    background-color: #480223;
+  }
+  
+  .messages-sidebar .selected {
+    background-color: #810541;
+  }
+  
+  /* Chat Area */
+.chat-area {
+  flex: 1; /* Take remaining space */
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  overflow-y: auto; /* Allow chat area to scroll */
+  height: calc(100vh - 40px); /* Set fixed height for chat area */
+}
+
+/* Chat Header */
+.chat-header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Chat Messages */
+.chat-messages {
+  flex: 1; /* Take remaining space */
+  overflow-y: auto; /* Enable scrolling for overflow */
+  padding: 10px;
+}
+
+/* Individual Message */
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Chat Input */
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.chat-input input {
+  flex: 1; /* Take remaining space */
+  padding: 8px;
+  margin-right: 10px;
+  width: 500px;
+}
+
+.chat-input button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
+}
+
+  
+  .message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #480223;
+    width: 200px;
+  }
+  
+
+  .search-bar{
+    height: 40px;
+    width: 180px;
+    position: relative;
+    margin-top: 40px;
+  }
+
+  .search-icon{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+  }
+
+  .send-icon{
+    margin-bottom: 15px;
+  }
+  
+  .messengers-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .messenger-picture {
+    width: 60px; /* Adjust the width of the profile picture */
+    height: 60px; /* Adjust the height of the profile picture */
+    border-radius: 50%; /* Make the profile picture circular */
+    margin-right: 100px;/* Add some space between the picture and the username */
+  }
+
+  .messenger img{
+    margin-right: 200px;
+    margin-top: -50px;
+  }
+
+.messenger p{
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+.messenger{
+  height: 70px;
+  padding: 0;
+}
+
+.chat-header p{
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.message span{
+  font-weight: 300;
+  font-size: 12px;
+  margin-left: 135px;
+}
+
+.message p{
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.comment-input-container {
+    position: relative;
+  }
+  
+  .comment-input {
+    padding-right: 40px; /* Adjust as needed based on icon size */
+  }
+  
+  .add-comment-icon {
+    position: absolute;
+    top: 35%;
+    right: 10px; /* Adjust as needed based on icon size and input padding */
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  

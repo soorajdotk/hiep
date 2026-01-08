@@ -1,0 +1,48 @@
+.search-bar {
+    position: relative; /* Position relative for absolute positioning of suggestions */
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .suggestions-container {
+    position: absolute;
+    top: calc(100% + 5px); /* Position suggestions below the search bar */
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none; /* Hide suggestions by default */
+  }
+  
+  .suggestions-container.active {
+    display: block; /* Show suggestions when active class is applied */
+  }
+  
+  .search-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+ .search-bar ul li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+ .search-bar ul li:last-child {
+    border-bottom: none;
+  }
+  

@@ -1,0 +1,58 @@
+/* Home.css */
+
+/* Ensure full page height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+
+/* Main content wrapper */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+/* Post section styles */
+.post-section {
+  margin-left: 440px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.post-section::-webkit-scrollbar{
+    width: 0;
+}
+
+.profile-section{
+    position: absolute;
+    top: 20px; /* Adjust top position */
+    right: 200px; /* Adjust right position */
+    height: 60px;
+    border-top: 1px solid #480223;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+  
+  .post-section,
+  .sidebar-section {
+    flex: auto;
+    margin-right: 0;
+    margin-bottom: 20px; /* Spacing between sections */
+  }
+}

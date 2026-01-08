@@ -1,0 +1,134 @@
+/* Post.css */
+
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  
+  /*  posts container */
+.posts {
+  margin-left: 400px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 50px;
+  margin-top: 20px;
+  padding-bottom: 100px;
+}
+
+/* Individual post item */
+.post-item {
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 310px;
+  height: 310px;
+  cursor: pointer;
+}
+
+/* Styling the image within each post */
+.post-image{
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+}
+
+.post-button{
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.post-text{
+  margin-top: 0;
+  margin-bottom: 5px;
+  width: 380px;
+}
+
+
+  
+/* The modal container */
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  z-index: 1000; /* Ensure the modal is above other elements */
+}
+
+/* Modal content */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #480223;
+  max-width: 80%;
+  width: 500px;
+  max-height: 100%;
+  overflow-y: auto;
+  border: 1px solid #480223;
+}
+
+.post-modal-image{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border: 1px solid #fff;
+}
+
+/* Close button (x symbol) */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.post-interactions{
+  margin-top: 75px;
+}
+
+.profile-picture{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: -55px;
+}
+
+.author-name{
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.delete-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 360px;
+  margin-top: -35px; 
+  display: flex;
+  align-items: center;
+}
+
+.product-icon{
+  margin-top: 5px;
+  margin-left: 270px;
+}

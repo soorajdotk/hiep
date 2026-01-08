@@ -1,0 +1,9 @@
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar{
+  position: fixed;
+  left: 0;
+}

@@ -1,0 +1,30 @@
+.product-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: 300px
+  }
+  
+  .product-details {
+    padding: 10px;
+  }
+  
+  .product-name {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  

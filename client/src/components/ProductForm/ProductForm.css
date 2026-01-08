@@ -1,0 +1,52 @@
+/* ProductForm.css */
+
+.form-container {
+    max-width: 800px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .form-container .input-group {
+    display: flex; /* Use flexbox for input group */
+  }
+  
+  .form-container .input-group input[type="file"] {
+    flex: 1; /* Take up remaining space */
+    margin-left: 10px; /* Add margin to separate from the text input */
+  }
+  

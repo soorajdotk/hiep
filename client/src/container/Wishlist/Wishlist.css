@@ -1,0 +1,75 @@
+/* Wishlist.css */
+
+/* Style for the entire wishlist page */
+.wishlist-page {
+    padding: 20px;
+    margin-left: 300px;
+  }
+  
+  /* Style for the wishlist items container */
+  .wishlist-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Style for each individual wishlist item */
+  .wishlist-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 60px;
+    height: 550px;
+  }
+  
+  /* Style for product image */
+  .wishlist-product-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+  }
+  
+  /* Style for product details */
+  .wishlist-product-details {
+    width: 300px;
+    margin-top: 70px;
+    max-height: 200px;
+  }
+
+  .wishlist-product-details p{
+    margin-top: 0px;
+    padding: 0px;
+  }
+  
+  /* Style for wishlist item actions */
+  .wishlist-actions {
+    margin-top: 10px;
+  }
+  
+  /* Style for remove button */
+  .remove-button {
+    background-color: #dc3545; /* Red color */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Style for add to cart button */
+  .add-to-cart-button {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for icons inside buttons */
+  .trash-icon,
+  .cart-icon {
+    margin-right: 5px;
+  }
+  

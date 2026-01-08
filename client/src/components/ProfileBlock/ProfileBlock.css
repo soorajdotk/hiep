@@ -1,0 +1,40 @@
+.profile-tab {
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-right: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px;
+  }
+  
+  .profile-tab-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+  }
+  
+  .profile-tab-profile-picture {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px; 
+    margin-bottom: 0px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: -17px;
+  }
+  
+  .username {
+    color: #888;
+  }
+
+  .follow-button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}

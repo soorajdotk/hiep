@@ -1,0 +1,153 @@
+.product-page{
+    padding-top: 20px;
+    margin-left: 280px;
+    display: flex;
+}
+
+.product-details-half{
+    padding-left: 20px;
+}
+
+.product-details{
+    height: 120px;
+    border-bottom: 1px solid #171717;
+    width: 640px;
+}
+
+.product-image{
+    width:550px;
+    height: 550px;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    font-size: 18px;
+}
+
+.product-price h3{
+    font-size: 24px;
+    color: #ccc;
+}
+
+.product-size {
+    margin-top: 20px;
+}
+
+.product-size label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.size-options {
+    display: flex;
+}
+
+.size-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.size-option.selected {
+    background-color: #810541;
+    color: #fff;
+    border-color: transparent;
+}
+
+.product-btn{
+    padding-top: 30px;
+    display: flex;
+    width: 560px;
+    justify-content: space-between;
+}
+
+.add-to-cart{
+    width: 300px;
+    height: 60px;
+}
+
+.react-icon{
+    padding-right: 10px;
+}
+
+.wishlist-btn{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border: 1px solid #480223;
+}
+
+.wishlist-btn:hover{
+    background-color: #000;
+}
+
+.product-quantity{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-quantity select{
+    width: 50px;
+    margin-left: 10px;
+    height: 20px;
+}
+
+.designer-profile{
+    max-width: 400px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 1px solid #810541;
+}
+  
+  .wishlist-btn .react-icons {
+    transition: fill 0.3s;
+    padding: 5px;
+  }
+  
+  .wishlist-btn .react-icons.filled {
+    fill: #810541; /* Change to your desired filled color */
+  }
+  
+  .wishlist-btn:hover .react-icons {
+    animation: fillAnimation 0.3s ease forwards;
+  }
+  
+  @keyframes fillAnimation {
+    0% {
+      fill: transparent;
+    }
+    100% {
+      fill: #810541; /* Change to your desired filled color */
+    }
+  }
+  
+  .more{
+    margin-left: 300px;
+    margin-top: 60px;
+  }

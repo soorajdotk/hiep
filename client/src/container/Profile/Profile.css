@@ -1,0 +1,72 @@
+/* ProfilePage.css */
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-info {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-top: 40px;
+    border-bottom: 1px solid #480223;
+    width: 950px;
+    height: 25vh;
+  }
+  
+  .profile-avatar {
+    margin-right: 95px;
+    margin-left: 100px;
+  }
+  
+  .profile-avatar img {
+    width: 100px; /* Adjust avatar image size */
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .profile-details {
+    margin-left: 20px;
+    /* Style user details container */
+  }
+  
+  .profile-details h2 {
+    margin: 0;
+    font-size: 24px;
+    /* Style username */
+  }
+  
+  .profile-details p {
+    margin: 5px 0;
+    /* Style user bio or other details */
+  }
+  
+  .profile-counts{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile-counts p{
+    margin-right: 25px;
+  }
+
+  .profile-top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .profile-top button{
+    font-size: small;
+    height: 30px;
+    width: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+
+  .unfollow{
+    background-color: black;
+    border: 1px solid #480223 ;
+  }
